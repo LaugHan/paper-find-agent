@@ -32,10 +32,10 @@ env/
 *.swo
 *~
 
-# Output
-output/
-*.csv
-*.html
+# Output files (but keep the output/ module code)
+output/*.csv
+output/*.html
+output/*.json
 
 # Environment
 .env
